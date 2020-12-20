@@ -1,8 +1,8 @@
 compile:
-	./rebar compile
+	rebar3 compile
 
 clean:
-	./rebar clean
+	rebar3 clean
 
 
 DEPS_PLT=$(CURDIR)/.deps_plt
